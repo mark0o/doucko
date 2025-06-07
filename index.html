@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letní doučování matematiky - Přímo u vás doma</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__text">
+            <h1 class="hero__title">
+              Letní doučování matematiky pro žáky prvního stupně ZŠ
+              <span class="hero__subtitle">přímo u vás doma!</span>
+            </h1>
+            <p class="hero__description">
+              Nabízím flexibilní a efektivní doučování matematiky přímo v
+              domácím prostředí vašeho dítěte.
+            </p>
+            <div class="hero__actions">
+              <a href="#kontakt" class="btn btn--primary btn--lg"
+                >Kontaktovat mě</a
+              >
+              <a href="#sluzby" class="btn btn--outline btn--lg"
+                >Více informací</a
+              >
+            </div>
+          </div>
+          <div class="hero__visual">
+            <div class="math-symbols">
+              <span class="math-symbol">+</span>
+              <span class="math-symbol">−</span>
+              <span class="math-symbol">×</span>
+              <span class="math-symbol">÷</span>
+              <span class="math-symbol">=</span>
+              <span class="math-symbol">√</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="sluzby" class="services">
+      <div class="container">
+        <h2 class="services__title">Co nabízím</h2>
+        <div class="services__grid">
+          <div class="service-card">
+            <div class="service-card__icon">👤</div>
+            <h3 class="service-card__title">Individuální přístup</h3>
+            <p class="service-card__description">
+              Individuální přístup přizpůsobený potřebám dítěte
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-card__icon">🏠</div>
+            <h3 class="service-card__title">Doučování doma</h3>
+            <p class="service-card__description">
+              Doučování přímo u vás doma, bez stresu z cestování
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-card__icon">📝</div>
+            <h3 class="service-card__title">Přehledné zápisy</h3>
+            <p class="service-card__description">
+              Přehledné zápisy z každé lekce pro rodiče
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-card__icon">📚</div>
+            <h3 class="service-card__title">Procvičovací úkoly</h3>
+            <p class="service-card__description">
+              Úkoly na procvičení do volného času pro lepší upevnění znalostí
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Free Lesson Section -->
+    <section class="free-lesson">
+      <div class="container">
+        <div class="free-lesson__content">
+          <h2 class="free-lesson__title">První lekce je zcela zdarma!</h2>
+          <p class="free-lesson__description">
+            Není co ztratit. Vyzkoušejte si kvalitu mého doučování bez
+            jakéhokoli závazku.
+          </p>
+          <a href="#kontakt" class="btn btn--primary btn--lg"
+            >Domluvit první lekci</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="contact">
+      <div class="container">
+        <h2 class="contact__title">Kontakt</h2>
+        <p class="contact__subtitle">
+          Pro více informací a domluvení termínu mě neváhejte kontaktovat!
+        </p>
+
+        <div class="contact__content">
+          <div class="contact-form">
+            <form class="form" id="contactForm">
+              <div class="form-group">
+                <label for="name" class="form-label">Jméno rodiče *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">E-mail *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone" class="form-label">Telefon</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label for="child-grade" class="form-label">Třída dítěte</label>
+                <select
+                  id="child-grade"
+                  name="child-grade"
+                  class="form-control"
+                >
+                  <option value="">Vyberte třídu</option>
+                  <option value="1">1. třída</option>
+                  <option value="2">2. třída</option>
+                  <option value="3">3. třída</option>
+                  <option value="4">4. třída</option>
+                  <option value="5">5. třída</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Zpráva</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-control"
+                  rows="4"
+                  style="resize: vertical; min-height: 38.6px"
+                  placeholder="Popište potřeby vašeho dítěte nebo položte otázku..."
+                  maxlength="1024"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full-width">
+                Odeslat zprávu
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__brand">
+            <span class="footer__logo">📚</span>
+            <span class="footer__title">Doučko z Matiky</span>
+          </div>
+          <a class="footer__text" href="mailto:doucko-matiky@email.cz">
+            doucko-matiky@email.cz
+          </a>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2025 Marko Irić – Všechna práva vyhrazena.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
