@@ -1,7 +1,7 @@
 // Discord Webhook Configuration
 // Replace this URL with your actual Discord webhook URL
 const DISCORD_WEBHOOK_URL =
-  "https://discord.com/api/webhooks/1380869577260662844/hIp99A4ZcirZLUuTqwWRfk2v3SrcW4P0oCevdRhYM3qk7Fdt2t6ck8D5eManfQKji7wd";
+  "https://l.webhook.party/hook/naRRht32vjBRO37uD3lvF4KlpRZZHMRap99QGdguZede8srfmouGcprcubz0QrTPma9oe0rEYsfpv8zDtp9aVeHOIptUNh1yGWg1s7ZajWjI%2Fbh7BMg%2Fu433v6Sj12P1rl0r%2FI%2BfeP3wV3KL8ISFycBIx%2FjqaVkImoJFFGLBAK2ITUcasQ5JXC5hCbuAndxhs103oduFtMLb4W%2FkGFP3gGbMalgGEEtt11YcRgAfPwPv8k008K%2Fl%2Fk6mHS4%2FaGe%2FRYavr46HbYhqKlzUl2ZcQIpLKKJKd9GGOogIvo3r5LHxE8gpXFW9kl37CKtjs%2BERc3m4fltsWBqPmO6h923RrFDRO%2FmMmunnziA6pAnaj7bt346cEruxdVOVXjxu95YXMX9zuH0kPZhvbH%2Fd/C94U0saBP3QLKrSS";
 
 // DOM Content Loaded
 document.addEventListener("DOMContentLoaded", function () {
